@@ -7,7 +7,7 @@
 
 Name:      mingw32-iconv
 Version:   1.12
-Release:   12%{?dist}.4
+Release:   12%{?dist}.5
 Summary:   GNU libraries and utilities for character set conversion
 
 
@@ -95,6 +95,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 22 2011 Kai Tietz <ktietz@redhat.com>
+- Adjusted version and rebuild using gcc 4.4.6
+  Related: rhbz#722878
+
 * Mon Dec 27 2010 Andrew Beekhof <abeekhof@redhat.com> - 1.12-12.4
 - Rebuild everything with gcc-4.4
   Related: rhbz#658833
